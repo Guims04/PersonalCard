@@ -7,7 +7,7 @@ Este é o repositório do meu card virtual, criado para compartilhar minhas info
 
 Sinta-se à vontade para usar este repositório como referência e criar seu próprio card virtual de contato. A única solicitação é que você mantenha os direitos autorais intactos, conforme especificado no arquivo LICENSE.
 
-## Virtual Contact Card]
+## Virtual Contact Card
 [Check Card](https://jguilhermese-card.netlify.com)
 
 This is the repository for my virtual contact card, created to share my contact and professional information in an easy and accessible manner. With this digital approach, I avoid the need for physical business cards, which also contributes to the sustainability of the planet rsrs.
