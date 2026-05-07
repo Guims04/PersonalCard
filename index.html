@@ -17,30 +17,12 @@
     <title>Card: João Guilherme Sales</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
-  <style>
-    body{
-      padding-top: 2rem;
-      background-color: aliceblue;
-    }
-    .avatar {
-      border: 0.3rem solid rgba(#fff, 0.3);
-      margin-top: -6rem;
-      margin-bottom: 1rem;
-      max-width: 9rem;
-    }
-    .cur-pointer{
-      cursor: pointer;
-    }
-    .tab-button-color{
-      color: #6c757d;
-    }
-    .tab-pills-button{
-      border-color: transparent;
-    }
-  </style>
+  
 
   <script type="text/javascript">
     function share(){ 
@@ -63,11 +45,16 @@
   <div class="container">
     <div class="row d-flex justify-content-center">
       <div class="col-md-6" >                                    
-        <div class="card shadow-lg">
+        <div class="card shadow-lg position-relative">
           <div class="w-auto d-flex justify-content-center align-items-center" style="max-height: 200px; overflow: hidden; border-radius: 3px; margin: 4px;">
             <img class="card-img-top" src="img/code5.gif" alt="Bologna">
           </div>
           <div class="card-body text-center">
+            <button id="theme-toggle" class="btn btn-sm btn-theme-toggle" aria-label="Alternar tema" title="Alternar tema">
+              <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M12.354 10.354a5 5 0 1 1-6.708-6.708 6 6 0 1 0 6.708 6.708z"/>
+              </svg>
+            </button>
             <img class="avatar img-thumbnail rounded-circle  shadow"  src="./img/guilherme.jpg" alt="...">
             <h4 class="card-title">João Guilherme Sales</h4>
             <input type="hidden" id="meu_nome" name="meu_nome" value="João Guilherme Sales">
@@ -436,5 +423,6 @@
   </div>
 </div>
 
+  <script src="js/theme.js"></script>
 </body>
 </html>
